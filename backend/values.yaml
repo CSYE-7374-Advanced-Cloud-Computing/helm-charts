@@ -5,7 +5,7 @@
 replicaCount: 2
 namespace: api
 image:
-  name: hemalgadhiya/csye-7374-advanced-cloud-webapp-backend:10b139d4a6cbb5952532b1fccbc2be045ff19775
+  name: iampaavan/csye-7374-advanced-cloud-webapp-backend:cd1b81d7b17e0bb73aa4cc891ccec5f37cbd7353
   pullPolicy: IfNotPresent
 imagePullSecrets: dockercreds
 #nameOverride: ""
@@ -38,4 +38,4 @@ redisport: 6379
 initContainers:
   name: busybox:1.28
 ingress:
-  host: hgadhiya.me
+  host: dev.paavangopala.me
